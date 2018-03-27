@@ -1,5 +1,11 @@
-import React from 'react'
+import React, { Fragment } from 'react';
+import ScoreSection from './ScoreSection';
 
-const ScoreCard = () => <div>ScoreCard</div>
+const ScoreCard = () => (
+  <Fragment>
+    <ScoreSection lable="Upper" />
+    <ScoreSection lable="Lower" />
+  </Fragment>
+)
 
 export default ScoreCard
